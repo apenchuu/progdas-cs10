@@ -17,6 +17,7 @@ int main() {
     char message[] = "0?13j#s^kd!ncji0"; // Message to encrypt
     char key[] = "chillGuy";             // Encryption key
 
+
     // Decrypt the message
     decrypt(message, key);
     printf("Decrypted message: %s\n", message);
